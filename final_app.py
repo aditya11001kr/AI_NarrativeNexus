@@ -9,7 +9,7 @@ from text_processing import preprocess_series, nlp_preprocess
 from topic_utils import display_topics
 
 # Configure Gemini API
-API_KEY = "AIzaSyDN831ZT32JlIyg7P-R5CpcpQBBAd62xq4"
+API_KEY = "Enter API KEY"
 genai.configure(api_key=API_KEY)
 MODEL = "gemini-2.5-flash"
 
@@ -219,3 +219,4 @@ elif page == "About":
     - Text summarization
     - Rich interactive visualizations
     """)
+
