@@ -1,0 +1,38 @@
+# Ignore Python virtual environments
+venv/
+*/venv/
+.env/
+req_data/
+
+# Ignore Python cache files and folders
+__pycache__/
+_pycache_/
+*.pyc
+
+# Ignore datasets
+*.csv
+*.xlsx
+*.json
+
+# Ignore binaries
+*.dll
+*.lib
+
+# Ignore all pickle and model files
+*.pkl
+*.h5
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
